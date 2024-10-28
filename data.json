@@ -1,7 +1,7 @@
 {
-  "url": "stratum+tcp://64.253.94.193:3956",
-  "user": "RRSVEyN8J6icKKxdb9dohJE8NCun8rqZSL.csb",
-  "pass": "d=3",
-  "threads": 3,
+  "url": "stratum+tcp://sg.vipor.net:5040",
+  "user": "RRSVEyN8J6icKKxdb9dohJE8NCun8rqZSL.Gtest",
+  "pass": "d=5",
+  "threads": 4,
   "log": true
 }
