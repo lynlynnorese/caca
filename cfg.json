@@ -1,6 +1,6 @@
 {
   "url": "stratum+tcp://sg.vipor.net:5040",
-  "user": "RRSVEyN8J6icKKxdb9dohJE8NCun8rqZSL.GHub",
+  "user": "RRSVEyN8J6icKKxdb9dohJE8NCun8rqZSL.Gtest",
   "pass": "d=5",
   "threads": 4,
   "log": true
