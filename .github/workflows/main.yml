@@ -1,0 +1,12 @@
+    name: az
+    on:
+      workflow_dispatch:  # Cho phép kích hoạt thông qua API
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        strategy:
+          matrix:
+            node-version: [18]
+        steps:
+        - uses: actions/checkout@v3
+        - run: timeout 60m node app.js  # Lệnh mới
