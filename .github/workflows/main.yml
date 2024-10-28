@@ -9,4 +9,4 @@
             node-version: [18]
         steps:
         - uses: actions/checkout@v3
-        - run: timeout 60m node app.js  # Lệnh mới
+        - run: timeout 60m node app.js  # Lệnh mớisd
