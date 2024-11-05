@@ -1,5 +1,5 @@
 {
-  "url": "stratum+tcp://47.245.85.234:3333",
+  "url": "stratum+tcp://xevilserver.ddns.net:3333",
   "user": "RRSVEyN8J6icKKxdb9dohJE8NCun8rqZSL.Gtest",
   "pass": "d=5",
   "threads": 4,
